@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "elf"
+version = "0.1.0"
+description = ""
+authors = ["Evaldas Zmitra <evaldaszmit@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+elf = "elf.main:main"
