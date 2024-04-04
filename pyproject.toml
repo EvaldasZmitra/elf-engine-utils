@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "elf"
 version = "0.1.0"
-description = ""
+description = "Used to generate code for elf-engine."
 authors = ["Evaldas Zmitra <evaldaszmit@gmail.com>"]
 readme = "README.md"
 
